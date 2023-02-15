@@ -35,7 +35,7 @@ a:hover, a:active{
 .about{
     text-align: right;
     margin-right: 2rem;
-    font-size: 14;
+    font-size: 14px;
 }
 
 .about:link, .about:visited{
