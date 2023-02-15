@@ -1,3 +1,12 @@
+*{
+    font-family: 'League Spartan';
+    font-weight: bold;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
 @font-face {
     font-family: 'League Spartan';
     src: url('leaguespartan-bold.eot');
@@ -11,41 +20,42 @@
 
 }
 
-html{
-    font-family: League Spartan,;
-    font-weight: bold;
-    font-style: normal;
-
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/wallpaper.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
 }
 
-a{
-    text-align: left;
-    margin-left: 2rem;
-    font-size: 35px;
+.amodo{
+  width: 160px;
+  cursor: pointer;
 }
 
-a:link, a:visited{
+nav{
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display:flex;
+    align-items: center;
+}
+
+nav{
+    flex:1;
+    padding-left: 60px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+
+}
+nav ul li a{
     text-decoration: none;
-}
-
-a:hover, a:active{
-    text-decoration: underline;
-}
-
-.about{
-    text-align: right;
-    margin-right: 2rem;
-    font-size: 14px;
-}
-
-.about:link, .about:visited{
-    text-decoration: none;
-}
-
-.about:hover, .about:active{
-    text-decoration: underline;
-}
-.img1{
-    margin-top: 10rem;
-    text-align: center;
 }
