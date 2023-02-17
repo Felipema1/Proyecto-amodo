@@ -62,13 +62,6 @@ nav ul li{
     margin-left: 25px;
 }
 
-#derecha{
-    font-family: 'Shrikhand',sans-serif;
-    letter-spacing: 1.5px;
-    line-height: 20px;
-    text-decoration: none;
-}
-
 .clearfix{
     clear: both;
 }
