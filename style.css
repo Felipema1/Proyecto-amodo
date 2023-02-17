@@ -102,6 +102,8 @@ nav ul li{
     margin-left: 10px;
     border-bottom: 1px solid #005223;
     font-size: 13px;
+    min-height: 100px;
+    min-width: 558.5px;
 }
 
 #amodo h2, #crew h2{
