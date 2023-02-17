@@ -69,10 +69,10 @@ nav ul li{
 #contenido{
     list-style: none;
     float: left;
-    width: calc(100% - 2px);
+    width: 100%;
     min-height: auto;
     margin-top:30px;
-    min-width: 558.5px;
+
 }
 
 .article{
@@ -83,7 +83,7 @@ nav ul li{
     border-bottom: 1px solid #005223;
     font-size: 13px;
     min-height: 100px;
-    min-width: 558.5px;
+
 } 
 
 .article h2{
@@ -96,6 +96,7 @@ nav ul li{
 }
 
 #about{
+    witdh:100%;
     list-style: none;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -103,7 +104,7 @@ nav ul li{
     border-bottom: 1px solid #005223;
     font-size: 13px;
     min-height: 100px;
-    min-width: 558.5px;
+
 }
 
 #amodo h2, #crew h2{
