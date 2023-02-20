@@ -22,12 +22,17 @@ html{
     scroll-behavior: smooth;
 }
 
-#web{
-    width: 50%;
-    margin:auto;
+header{
+    background-position: absolute;
+    font-family: 'Shrikhand',sans-serif;
+    font-size: 40px;
+    color: #005223;
+    margin-left: 600px;
+    position: fixed;
 }
 
 nav{
+    background-color: white;
     position: fixed;
     height: 40px;
     width: 50%;
@@ -35,6 +40,7 @@ nav{
     background-color: #005223;
     border-radius: 100px;
     min-width: 558.5px;
+    margin-left:-270px;
 }
 
 nav a{
@@ -47,32 +53,38 @@ nav a:hover{
     text-decoration: underline;
 }
 
-#logo{
-    float:left;
-    width: 40px;
-    height: 40px;
-}
-
 nav ul li{
-    font-size: 15px;
+    font-size: 13px;
     float: left;
-    margin:10px;
     list-style: none;
-    margin-right: 25px;
-    margin-left: 25px;
+    margin-left: 100px;
+    margin-top: 10px;
 }
 
 .clearfix{
     clear: both;
 }
 
+#about{
+    margin:30px;
+    list-style: none;
+    border-bottom: 1px solid #005223;
+    font-size: 13px;
+    min-height: 100px;
+    min-width: 558.5px;
+}
+
+#amodo h2, #crew h2{
+    text-decoration-line: underline;
+}
+
 #contenido{
     list-style: none;
     float: left;
-    width: 100%;
+    width: calc(100% - 2px);
     min-height: auto;
-    margin-top:30px;
-
+    margin-top: 100px;
+    min-width: 558.5px;
 }
 
 .article{
@@ -83,38 +95,14 @@ nav ul li{
     border-bottom: 1px solid #005223;
     font-size: 13px;
     min-height: 100px;
-
+    min-width: 558.5px;
 } 
 
 .article h2{
     text-decoration-line: underline;
     margin-bottom: 5px;
 }
-
-.article p{
-    color: #005223;
-}
-
-#about{
-    witdh:100%;
-    list-style: none;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 10px;
-    border-bottom: 1px solid #005223;
-    font-size: 13px;
-    min-height: 100px;
-
-}
-
-#amodo h2, #crew h2{
-    text-decoration-line: underline;
-}
-
-#amodo p, #crew p{
-    color: #005223;
-}
-
+    
 footer h2{
     list-style: none;
     font-family:sans-serif;
@@ -123,9 +111,11 @@ footer h2{
     letter-spacing: 1.5px;
     color: white;
     background-color: #005223;
-    height: 40px;
+    min-height: 40px;
     line-height: 40px;
     margin-top: 5px;
     margin-bottom: 5px;
     border-radius: 100px;
+    margin-left: 25%;    
+    width: 50%;
 }
